@@ -63,7 +63,13 @@ PRODUCT_PACKAGES += \
     libtinyxml \
     libfs_mgr
 
+# Camera
 PRODUCT_PACKAGES += \
+	Snap
+
+# Messaging
+PRODUCT_PACKAGES += \
+	messaging
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/a2dp_audio_policy_configuration.xml:system/etc/a2dp_audio_policy_configuration.xml \
